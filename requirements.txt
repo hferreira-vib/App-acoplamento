@@ -1,0 +1,10 @@
+streamlit>=1.36
+pandas>=2.0
+fpdf2>=2.7
+matplotlib>=3.7
+
+# --- Utilitario opcional (apenas para (re)baixar imagens em img/ via script) ---
+# Nao sao necessarios em producao: a app so le os JPGs ja presentes em img/.
+ddgs>=9.0
+requests>=2.31
+Pillow>=10.0

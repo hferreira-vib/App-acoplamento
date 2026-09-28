@@ -1,0 +1,60 @@
+{
+  "_descricao": "Fator de Serviço (FS) por Tipo de Acionamento x Maquina Movida. Valores tipicos de referencia (base AGMA/DIN, Falk Steelflex T10). Ajuste conforme catalogo do fabricante. As maquinas 'Motor Elétrico (Bancada / Gerador / Back-to-Back)' e 'Mancal / Eixo de Suporte' usam FS base limpo (ver logic/fator_servico.py).",
+  "matriz": {
+    "Motor Elétrico": {
+      "Motor Elétrico (Bancada / Gerador / Back-to-Back)": 1.0,
+      "Mancal / Eixo de Suporte": 1.0,
+      "Bomba Centrífuga": 1.0,
+      "Ventilador": 1.1,
+      "Compressor": 1.5,
+      "Transportador de Correia": 1.25,
+      "Elevador de Carga": 1.5,
+      "Moinho": 1.75,
+      "Britador": 2.0
+    },
+    "Mancal / Eixo Intermediário": {
+      "Motor Elétrico (Bancada / Gerador / Back-to-Back)": 1.0,
+      "Mancal / Eixo de Suporte": 1.0,
+      "Bomba Centrífuga": 1.0,
+      "Ventilador": 1.1,
+      "Compressor": 1.5,
+      "Transportador de Correia": 1.25,
+      "Elevador de Carga": 1.5,
+      "Moinho": 1.75,
+      "Britador": 2.0
+    },
+    "Motor de Combustão (4 ou mais cilindros)": {
+      "Motor Elétrico (Bancada / Gerador / Back-to-Back)": 1.0,
+      "Mancal / Eixo de Suporte": 1.0,
+      "Bomba Centrífuga": 1.25,
+      "Ventilador": 1.35,
+      "Compressor": 1.75,
+      "Transportador de Correia": 1.5,
+      "Elevador de Carga": 1.75,
+      "Moinho": 2.0,
+      "Britador": 2.25
+    },
+    "Motor de Combustão (1 a 3 cilindros)": {
+      "Motor Elétrico (Bancada / Gerador / Back-to-Back)": 1.0,
+      "Mancal / Eixo de Suporte": 1.0,
+      "Bomba Centrífuga": 1.5,
+      "Ventilador": 1.6,
+      "Compressor": 2.0,
+      "Transportador de Correia": 1.75,
+      "Elevador de Carga": 2.0,
+      "Moinho": 2.25,
+      "Britador": 2.5
+    },
+    "Turbina": {
+      "Motor Elétrico (Bancada / Gerador / Back-to-Back)": 1.0,
+      "Mancal / Eixo de Suporte": 1.0,
+      "Bomba Centrífuga": 1.1,
+      "Ventilador": 1.2,
+      "Compressor": 1.6,
+      "Transportador de Correia": 1.35,
+      "Elevador de Carga": 1.6,
+      "Moinho": 1.85,
+      "Britador": 2.1
+    }
+  }
+}
